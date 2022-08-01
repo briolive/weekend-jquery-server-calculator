@@ -2,9 +2,25 @@
     <head>
         <script src="vendors/jquery.js"></script>
         <script src="scripts/client.js"></script>
-        <link href="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         <h1>Server Side Calculator</h1>
+        <div id="calculatorButtons">
+            <input 
+                type="text" 
+                id="firstInputBtn"
+            />
+            <button id="addBtn">+</button>
+            <button id="subtractBtn">-</button>
+            <button id="multiplyBtn">*</button>
+            <button id="divideBtn">/</button>
+            <input 
+                type="text"
+                id="secondInput"
+            />
+            <button id="calculateBtn">=</button>
+            <button id="clearBtn">C</button>
+        </div>
     </body>
 </html>
