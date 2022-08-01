@@ -4,6 +4,13 @@ Welcome to the weekend challenge!
 
 You are going to be building a server-side calculator. The logic for the calculator **must** be implemented on the server. 
 
+[x] Set up file structure and server
+[] Build a calculator in HTML with two input fields,
+[] Buttons for addition, subtraction, multiplication, and division,
+[] Buttons for submit and clear
+[] Create click handlers for all buttons
+
+
 ## Required Features
 
 ### Calculator
