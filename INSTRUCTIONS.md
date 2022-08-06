@@ -9,11 +9,10 @@ You are going to be building a server-side calculator. The logic for the calcula
 [x] Create click handler for the operator selected that will be added to an object to be sent to the server
 [x] Create click handler for calculateBtn that will add both inputs to the object containing the operator selected
 [x] Create click handler for clearBtn that clears both inputs
-[] Set up POST route to send current equation to the server for calculation
+[x] Set up POST route to send current equation to the server for calculation
 
 On the server:
-[] Create function that will take both inputs and use the operator to complete each math problem and assign an answer as a property
-[] 
+[x] Built out server-side logic to compute each equation 
 [] Create array that will serve as historical record of all math operations and solutions
 
 [] Display list of all previous calculations on the page when it loads using a GET request
