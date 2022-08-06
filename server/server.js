@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5004;
 app.use(express.static('server/public'))
 
 
-
+let equationArray = [];
 
 
 

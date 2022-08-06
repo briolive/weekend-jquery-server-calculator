@@ -5,10 +5,16 @@ Welcome to the weekend challenge!
 You are going to be building a server-side calculator. The logic for the calculator **must** be implemented on the server. 
 
 [x] Set up file structure and server
-[] Build a calculator in HTML with two input fields,
-[] Buttons for addition, subtraction, multiplication, and division,
-[] Buttons for submit and clear
-[] Create click handlers for all buttons
+[x] Build a calculator in HTML with two input fields, buttons for addition, subtraction, multiplication, division, submit, and clear
+[] Create click handler for the operator selected that will be added to an object to be sent to the server
+[] Create click handler for calculateBtn that will create an object containing the inputs and operator selected
+
+On the server:
+[] Create function that will take both inputs and use the operator to complete each math problem and assign an answer as a property
+[] 
+[] Create array that will serve as historical record of all math operations and solutions
+
+[] Display list of all previous calculations on the page when it loads using a GET request
 
 
 ## Required Features
