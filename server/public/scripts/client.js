@@ -46,6 +46,16 @@ function sendProblem(){{
     newEquation.num0 = $('#first-input').val(),
     newEquation.num1 = $('#second-input').val()};
     console.log('in sendProblem, newEquation:', newEquation);
+    $.ajax({
+        type: 'POST',
+        url: '/newequation',
+        data: newEquation
+    }).then(function (response){
+        console.log('newEquation sent to the server:', newEquation);
+    }).catch(function (error){
+        console.log('error');
+        alert('Something went wrong. Please try again.');
+    })
 }
 
 
