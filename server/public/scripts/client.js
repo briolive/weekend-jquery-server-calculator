@@ -2,11 +2,12 @@ $(readyNow);
 
 function readyNow() {
     console.log('jQuery ready!');
-    $('#addBtn').on('click', addValues)
-    $('#subtractBtn').on('click', subtractValues)
-    $('#multiplyBtn').on('click', multiplyValues)
-    $('#divideBtn').on('click', divideValues)
+    $('#addBtn').on('click', addValues);
+    $('#subtractBtn').on('click', subtractValues);
+    $('#multiplyBtn').on('click', multiplyValues);
+    $('#divideBtn').on('click', divideValues);
     $('#calculateBtn').on('click', sendProblem);
+    $('#clearBtn').on('click', clearInputs);
 }
 
 // creating the equation to send to the server
@@ -45,6 +46,13 @@ function sendProblem(){{
     newEquation.num0 = $('#first-input').val(),
     newEquation.num1 = $('#second-input').val()};
     console.log('in sendProblem, newEquation:', newEquation);
+}
+
+
+// function to clear inputs with clearBtn
+function clearInputs(){
+    $('#first-input').val('')
+    $('#second-input').val('')
 }
 
 
