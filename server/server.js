@@ -30,12 +30,17 @@ app.post('/newequation', (req, res) => {
     }
     equationArray.push(newEquation);
     console.log('updated array!', equationArray);
-    res.sendStatus(201);
+    res.send(newEquation);
 })
 
 // function calculateAnswer(){
 //     console.log('newEquation on the server:', req.body);
 // }
+
+// return our array of problems when making a GET request to /problems
+app.get('/problems', (req, res) => {
+    res.send(equationArray);
+});
 
 
 app.listen(PORT, () => {

@@ -10,6 +10,7 @@ You are going to be building a server-side calculator. The logic for the calcula
 [x] Create click handler for calculateBtn that will add both inputs to the object containing the operator selected
 [x] Create click handler for clearBtn that clears both inputs
 [x] Set up POST route to send current equation to the server for calculation
+[] Create GET request to display list of equations on the DOM
 
 On the server:
 [x] Built out server-side logic to compute each equation 
