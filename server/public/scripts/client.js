@@ -63,12 +63,6 @@ function clearInputs(){
     $('#second-input').val('')
 }
 
-// function to display answer on the DOM
-// function getAnswer(){
-//     $.ajax({
-//         type: 'GET',
-//     })
-// }
 
 // function to display problems on the DOM
 function getProblems(){
@@ -90,5 +84,3 @@ function getProblems(){
     })
 }
 
-
-console.log('current object:', newEquation);
