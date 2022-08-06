@@ -6,8 +6,9 @@ You are going to be building a server-side calculator. The logic for the calcula
 
 [x] Set up file structure and server
 [x] Build a calculator in HTML with two input fields, buttons for addition, subtraction, multiplication, division, submit, and clear
-[] Create click handler for the operator selected that will be added to an object to be sent to the server
-[] Create click handler for calculateBtn that will create an object containing the inputs and operator selected
+[x] Create click handler for the operator selected that will be added to an object to be sent to the server
+[x] Create click handler for calculateBtn that will add both inputs to the object containing the operator selected
+[] Set up route to send current equation to the server for calculation
 
 On the server:
 [] Create function that will take both inputs and use the operator to complete each math problem and assign an answer as a property
